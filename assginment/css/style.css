@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: crimson;
+    width: 80px;
+    height: 40px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+header {
+    background-color: red;
+}
+
+header img {
+    padding: 15px;
+}
+
+nav {
+    line-height: 42px;
+    background-color: #272f54;
+    margin: 1px auto 5px;
+    height: 42px;
+}
+
+nav ul {
+    float: left;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul a {
+    display: block;
+    color: #fff;
+    padding: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul a:hover {
+    text-decoration: underline;
+}
+
+nav form {
+    float: right;
+    padding-right: 15px;
+}
+
+nav form input {
+    width: 200px;
+    height: 25px;
+}
+
+nav form button {
+    border: 0;
+    padding: 4px 5px;
+    box-shadow: inset 0 0 3px #fff;
+    background-color: #272f54;
+    color: #fff;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.headline {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row .col {
+    width: 32%;
+    border: 1px solid #CCC;
+    padding: 10px 15px;
+    margin-top: 10px;
+    margin-right: 2%;
+    float: left;
+}
+
+.noidung .content {
+    width: 50%;
+    padding: 10px 15px;
+    margin-top: 10px;
+    margin-right: 2%;
+    float: left;
+}
+
+.row .col:nth-child(3n) {
+    margin-right: 0;
+}
+
+.row .col a {
+    color: #cb7802;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.row .col a:hover {
+    text-decoration: underline;
+}
+
+.row .col img {
+    width: 100%;
+    margin: 10px auto;
+}
+
+.row .desc {
+    text-align: justify;
+}
+
+footer {
+    margin-top: 10px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #272f54;
+    color: #fff;
+}

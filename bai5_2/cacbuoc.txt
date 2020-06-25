@@ -1,0 +1,10 @@
+1. Tạo kết nối đến cơ sở dữ liệu MySQL $conn = new PDO();
+2. Tạo câu lệnh truy vấn SQL
+3. $stmt = $conn->prepare(câu lệnh truy vấn)
+4. Trường hợp câu lệnh truy vấn có chứa tham số
+- truyền giá trị cho tham số đó
+- $stmt->bindParam('thamso', 'giá trị')
+5. Thực thi lệnh
+$stmt->execute()
+6. Nếu trong trường hợp mà chúng ta sử dụng câu lệnh select thì cần lấy ra dữ liệu
+fetchAll()
